@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Fabricante confiable de ropa deportiva para hombres y mujeres, elaborada por encargo y con más de 35 años de experiencia." />
+  <meta name="keywords" content="ropa deportiva personalizada Colombia, activewear, ropa gym, boxers hombre" />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="Style/style.css">
+  
+  <title>Fabio Ariza</title>
+</head>
+
+<body>
+
+  <video id="bg-video" autoplay muted loop playsinline>
+    <source src="assets/Vid/cover.mp4" type="video/mp4">
+  </video>
+  <div class="overlay-fade" aria-hidden="true"></div>
+
+  <header class="top-header" role="banner">
+    <div class="left">
+      <div class="contact-text" data-key="contact_text">¿Preguntas? +57 314 2005633<a class="contact-number" href="tel:+573142005633" data-key="contact_phone"></a></div>
+    </div>
+
+    <a href="#" class="logo-text" data-key="brand_name">Fabio Ariza</a>
+
+    <div class="right">
+      <div class="whatsapp-cta hide-mobile">
+        <a class="btn-cta" href="https://wa.me/573142005633" target="_blank" rel="noopener noreferrer" data-key="whatsapp_cta">Chatea por WhatsApp</a>
+      </div>
+
+      <div class="language-selector">
+        <select id="lang-select" aria-label="Seleccionar idioma">
+          <option value="es">ES</option>
+          <option value="en">EN</option>
+        </select>
+      </div>
+
+      <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <nav class="main-nav" role="navigation">
+    <ul>
+      <li><a href="#hombre" data-key="nav_hombre">Para él</a></li>
+      <li><a href="#mujer" data-key="nav_mujer">Para ella</a></li>
+      <li><a href="#sobre" data-key="nav_sobre">Nosotros</a></li>
+      <li><a href="#faq" data-key="nav_preguntas">Preguntas</a></li>
+      <li class="mobile-only"><a href="#contacto" class="highlight" data-key="nav_agenda">Agenda tu pedido</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <h1 class="hero-title">
+          <span data-key="hero_line1">Diseños Pensados</span><br>
+          <span data-key="hero_line2">Para Romper</span><br>
+          <span data-key="hero_line3">Limites</span>
+        </h1>
+
+        <div class="hero-cta">
+          <a class="cta-primary" href="#contacto" data-key="cta_agenda">Agenda tu pedido</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= HOMBRE ================= -->
+    <section id="hombre" class="section section-catalog">
+      <div class="container">
+        <h2 class="section-title" data-key="hombre_title">Colección Hombre</h2>
+        <p class="lead" data-key="hombre_lead">Activewear y boxers diseñados a medida con tejidos de alto rendimiento.</p>
+
+        <div class="grid-cards">
+          <article class="card">
+            <img src="assets/Img/conjunto-1.jpg" 
+                 alt="Conjunto hombre" 
+                 loading="lazy"
+                 data-caption="Set de entrenamiento masculino con tela transpirable y costuras planas."
+                 data-key-caption="hombre_img1_caption">
+            <div class="card-body">
+              <h3 data-key="hombre_card1_title">Set Entrenamiento</h3>
+              <p data-key="hombre_card1_p">Tejido transpirable, costuras planas, ajuste anatómico.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="assets/Img/pantaloneta-1.jpg" 
+                 alt="Pantaloneta hombre" 
+                 loading="lazy"
+                 data-caption="Pantaloneta premium para entrenamiento y uso urbano."
+                 data-key-caption="hombre_img2_caption">
+            <div class="card-body">
+              <h3 data-key="hombre_card2_title">Pantaloneta Premium</h3>
+              <p data-key="hombre_card2_p">Confección a medida con materiales de primera calidad.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="assets/Img/saco-1.jpg" 
+                 alt="Camiseta técnica" 
+                 loading="lazy"
+                 data-caption="Camiseta técnica de secado rápido y diseño ergonómico."
+                 data-key-caption="hombre_img3_caption">
+            <div class="card-body">
+              <h3 data-key="hombre_card3_title">Camiseta Técnica</h3>
+              <p data-key="hombre_card3_p">Secado rápido y ajuste ergonómico.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= MUJER ================= -->
+    <section id="mujer" class="section section-catalog alt">
+      <div class="container">
+        <h2 class="section-title" data-key="mujer_title">Colección Mujer</h2>
+        <p class="lead" data-key="mujer_lead">Leggings, tops y conjuntos con estilo y funcionalidad.</p>
+
+        <div class="grid-cards">
+          <article class="card">
+            <img src="assets/Img/pantalon-mujer-1.jpg" 
+                 alt="Leggings mujer"
+                 loading="lazy"
+                 data-caption="Leggings sculpt con compresión estratégica."
+                 data-key-caption="mujer_img1_caption">
+            <div class="card-body">
+              <h3 data-key="mujer_card1_title">Leggings Sculpt</h3>
+              <p data-key="mujer_card1_p">Compresión estratégica y máxima libertad de movimiento.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="assets/Img/top-mujer.jpg" 
+                 alt="Top deportivo"
+                 loading="lazy"
+                 data-caption="Top deportivo de soporte medio y tela suave."
+                 data-key-caption="mujer_img2_caption">
+            <div class="card-body">
+              <h3 data-key="mujer_card2_title">Top Soporte</h3>
+              <p data-key="mujer_card2_p">Soporte medio con tejidos suaves al tacto.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="assets/Img/camisa-mujer-1.jpg" 
+                 alt="Conjunto mujer"
+                 loading="lazy"
+                 data-caption="Conjunto performance femenino ideal para entrenamiento."
+                 data-key-caption="mujer_img3_caption">
+            <div class="card-body">
+              <h3 data-key="mujer_card3_title">Conjunto Performance</h3>
+              <p data-key="mujer_card3_p">Diseño pensado para entrenamiento y estilo urbano.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SOBRE ================= -->
+    <section id="sobre" class="section section-about">
+      <div class="container narrow">
+        <h2 class="section-title" data-key="sobre_title">Sobre Nosotros</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p class="lead" data-key="sobre_lead">Más de <strong data-key="sobre_years">35 años</strong> confeccionando prendas por encargo.</p>
+            <ul class="features">
+              <li data-key="feature_1">Diseño a medida y sampling</li>
+              <li data-key="feature_2">Control de calidad en cada etapa</li>
+              <li data-key="feature_3">Asesoría en materiales y patronaje</li>
+            </ul>
+            <a href="#contacto" class="btn-outline" data-key="btn_solicitar">Solicitar asesoría</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= GALERÍA ================= -->
+    <section id="gallery" class="section section-gallery">
+      <div class="container">
+        <h2 class="section-title" data-key="gallery_title">Galería / Lookbook</h2>
+        <div class="masonry">
+          <img src="assets/gallery-1.jpg" loading="lazy" data-caption="Lookbook pieza #1 — estilo urbano deportivo." data-key-caption="gallery_img1_caption">
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FAQ ================= -->
+    <section id="faq" class="section section-faq">
+      <div class="container narrow">
+        <h2 class="section-title" data-key="faq_title">Preguntas frecuentes</h2>
+        <div class="faq-list">
+          <details>
+            <summary data-key="faq_q1">¿Cómo hago un pedido por encargo?</summary>
+            <p data-key="faq_a1">Contacta por WhatsApp o email, comparte tu brief y tiempos.</p>
+          </details>
+          <details>
+            <summary data-key="faq_q2">¿Hacen muestras antes de producir?</summary>
+            <p data-key="faq_a2">Sí, desarrollamos sampling antes de producción para asegurar el fit.</p>
+          </details>
+          <details>
+            <summary data-key="faq_q3">¿Pueden asesorarme en telas y tallas?</summary>
+            <p data-key="faq_a3">Te guiamos en materiales, gramajes, avíos y escalado de tallas.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACTO ================= -->
+    <section id="contacto" class="section section-contact">
+      <div class="container narrow">
+        <h2 class="section-title" data-key="contacto_title">Agenda tu pedido</h2>
+        <p class="lead" data-key="contacto_lead">Habla con nuestro equipo y obtén una cotización personalizada.</p>
+        <div class="contact-actions">
+          <a class="btn-cta large" href="https://wa.me/573142005633" data-key="contacto_whatsapp">Chatear por WhatsApp</a>
+          <a class="btn-outline" href="mailto:contacto@tuempresa.com" data-key="contacto_email">Enviar correo</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer-premium">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <p data-key="footer_brand">Fabio Ariza</p>
+        </div>
+        <div class="footer-meta">
+          <p data-key="footer_copyright">© 2026 — Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- ================= LIGHTBOX PRO ================= -->
+  <div id="lightbox-pro" class="lightbox-pro">
+    <span class="lb-close" id="lb-close">×</span>
+    <div class="lb-counter" id="lb-counter"></div>
+
+    <img id="lb-img" class="lb-img" src="" alt="zoom">
+
+    <div class="lb-caption" id="lb-caption"></div>
+
+    <button class="lb-arrow lb-prev" id="lb-prev">‹</button>
+    <button class="lb-arrow lb-next" id="lb-next">›</button>
+  </div>
+
+<script>
+/* ================= MENU MÓVIL ================= */
+const mobileBtn = document.getElementById('mobile-menu-btn');
+const navList = document.querySelector('.main-nav ul');
+const body = document.body;
+
+
+
+
+mobileBtn.addEventListener('click', () => {
+  body.classList.toggle('menu-open');
+  navList.classList.toggle('open');
+  mobileBtn.classList.toggle('open');
+});
+
+document.querySelectorAll('.main-nav a').forEach(link => {
+  link.addEventListener('click', () => {
+    body.classList.remove('menu-open');
+    navList.classList.remove('open');
+    mobileBtn.classList.remove('open');
+  });
+});
+
+/* ================= SCROLL REVEAL ================= */
+const srItems = document.querySelectorAll('.section, .hero-title');
+const sr = new IntersectionObserver((entries) => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('reveal'); });
+}, { threshold: 0.1 });
+srItems.forEach(i => sr.observe(i));
+
+/* ================= LIGHTBOX PRO (SEPARADO + CAPTIONS) ================= */
+
+const lbHombre = Array.from(document.querySelectorAll('#hombre .card img'));
+const lbMujer  = Array.from(document.querySelectorAll('#mujer .card img'));
+const lbGallery = Array.from(document.querySelectorAll('#gallery img'));
+
+const lightbox = document.getElementById("lightbox-pro");
+const lbImg = document.getElementById("lb-img");
+const lbClose = document.getElementById("lb-close");
+const lbNext = document.getElementById("lb-next");
+const lbPrev = document.getElementById("lb-prev");
+const lbCounter = document.getElementById("lb-counter");
+const lbCaption = document.getElementById("lb-caption");
+
+let lbIndex = 0;
+let lbGroup = [];
+
+function setupLightbox(imgArray) {
+  imgArray.forEach((img, index) => {
+    img.style.cursor = "zoom-in";
+    img.dataset.index = index;
+    img.addEventListener("click", () => {
+      lbGroup = imgArray;
+      lbIndex = index;
+      openLightbox();
+    });
+  });
+}
+
+setupLightbox(lbHombre);
+setupLightbox(lbMujer);
+setupLightbox(lbGallery);
+
+function openLightbox() {
+  const currentImg = lbGroup[lbIndex];
+  lightbox.style.display = "flex";
+  lbImg.src = currentImg.src;
+  lbCounter.textContent = `${lbIndex + 1} / ${lbGroup.length}`;
+  lbCaption.textContent = currentImg.dataset.caption || "";
+}
+
+function nextImg() {
+  lbIndex = (lbIndex + 1) % lbGroup.length;
+  openLightbox();
+}
+
+function prevImg() {
+  lbIndex = (lbIndex - 1 + lbGroup.length) % lbGroup.length;
+  openLightbox();
+}
+
+lbNext.addEventListener("click", (e) => { e.stopPropagation(); nextImg(); });
+lbPrev.addEventListener("click", (e) => { e.stopPropagation(); prevImg(); });
+lbClose.addEventListener("click", () => lightbox.style.display = "none");
+
+lightbox.addEventListener("click", (e) => { 
+  if(e.target === lightbox) lightbox.style.display = "none"; 
+});
+
+document.addEventListener("keydown", (e) => {
+  if(lightbox.style.display === "flex") {
+    if (e.key === "Escape") lightbox.style.display = "none";
+    if (e.key === "ArrowRight") nextImg();
+    if (e.key === "ArrowLeft") prevImg();
+  }
+});
+
+/* ================= TRANSLATIONS: ES ↔ EN (visible text only) ================= */
+
+/*
+  Approach:
+  - Elements to translate have a `data-key` attribute (text content)
+  - Image captions use `data-key-caption` attributes on <img> (we'll update dataset.caption)
+  - Language stored in localStorage under 'site_lang'
+  - Default language: 'es' (as requested)
+*/
+
+const translations = {
+  "es": {
+    // header / nav
+    "contact_text": "¿Preguntas? ",
+    "contact_phone": "+57 314 2005633",
+    "brand_name": "Fabio Ariza",
+    "whatsapp_cta": "Chatea por WhatsApp",
+    "nav_hombre": "Para él",
+    "nav_mujer": "Para ella",
+    "nav_sobre": "Nosotros",
+    "nav_preguntas": "Preguntas",
+    "nav_agenda": "Agenda tu pedido",
+
+    // hero
+    "hero_line1": "Diseño Que",
+    "hero_line2": "Eleva Tu",
+    "hero_line3": "Rendimiento",
+    "cta_agenda": "Agenda tu pedido",
+
+    // hombre
+    "hombre_title": "Colección Hombre",
+    "hombre_lead": "Activewear y boxers diseñados a medida con tejidos de alto rendimiento.",
+    "hombre_card1_title": "Set Entrenamiento",
+    "hombre_card1_p": "Tejido transpirable, costuras planas, ajuste anatómico.",
+    "hombre_card2_title": "Pantaloneta Premium",
+    "hombre_card2_p": "Confección a medida con materiales de primera calidad.",
+    "hombre_card3_title": "Camiseta Técnica",
+    "hombre_card3_p": "Secado rápido y ajuste ergonómico.",
+    "hombre_img1_caption": "Set de entrenamiento masculino con tela transpirable y costuras planas.",
+    "hombre_img2_caption": "Pantaloneta premium para entrenamiento y uso urbano.",
+    "hombre_img3_caption": "Camiseta técnica de secado rápido y diseño ergonómico.",
+
+    // mujer
+    "mujer_title": "Colección Mujer",
+    "mujer_lead": "Leggings, tops y conjuntos con estilo y funcionalidad.",
+    "mujer_card1_title": "Leggings Sculpt",
+    "mujer_card1_p": "Compresión estratégica y máxima libertad de movimiento.",
+    "mujer_card2_title": "Top Soporte",
+    "mujer_card2_p": "Soporte medio con tejidos suaves al tacto.",
+    "mujer_card3_title": "Conjunto Performance",
+    "mujer_card3_p": "Diseño pensado para entrenamiento y estilo urbano.",
+    "mujer_img1_caption": "Leggings sculpt con compresión estratégica.",
+    "mujer_img2_caption": "Top deportivo de soporte medio y tela suave.",
+    "mujer_img3_caption": "Conjunto performance femenino ideal para entrenamiento.",
+
+    // sobre
+    "sobre_title": "Sobre Nosotros",
+    "sobre_lead": "Más de 35 años confeccionando prendas por encargo.",
+    "sobre_years": "35 años",
+    "feature_1": "Diseño a medida y sampling",
+    "feature_2": "Control de calidad en cada etapa",
+    "feature_3": "Asesoría en materiales y patronaje",
+    "btn_solicitar": "Solicitar asesoría",
+
+    // gallery
+    "gallery_title": "Galería / Lookbook",
+    "gallery_img1_caption": "Lookbook pieza #1 — estilo urbano deportivo.",
+
+    // faq
+    "faq_title": "Preguntas frecuentes",
+    "faq_q1": "¿Cómo hago un pedido por encargo?",
+    "faq_a1": "Contacta por WhatsApp o email, comparte tu brief y tiempos.",
+    "faq_q2": "¿Hacen muestras antes de producir?",
+    "faq_a2": "Sí, desarrollamos sampling antes de producción para asegurar el fit.",
+    "faq_q3": "¿Pueden asesorarme en telas y tallas?",
+    "faq_a3": "Te guiamos en materiales, gramajes, avíos y escalado de tallas.",
+
+    // contacto
+    "contacto_title": "Agenda tu pedido",
+    "contacto_lead": "Habla con nuestro equipo y obtén una cotización personalizada.",
+    "contacto_whatsapp": "Chatear por WhatsApp",
+    "contacto_email": "Enviar correo",
+
+    // footer
+    "footer_brand": "Fabio Ariza",
+    "footer_copyright": "© 2026 — Todos los derechos reservados."
+  },
+
+  "en": {
+    // header / nav
+    "contact_text": "Questions? ",
+    "contact_phone": "+57 314 2005633",
+    "brand_name": "Fabio Ariza",
+    "whatsapp_cta": "Chat on WhatsApp",
+    "nav_hombre": "For him",
+    "nav_mujer": "For her",
+    "nav_sobre": "About",
+    "nav_preguntas": "FAQ",
+    "nav_agenda": "Book a order",
+
+    // hero
+    "hero_line1": "Design That",
+    "hero_line2": "Elevates Your",
+    "hero_line3": "Performance",
+    "cta_agenda": "Book your order",
+
+    // hombre
+    "hombre_title": "Men's Collection",
+    "hombre_lead": "Activewear and boxers custom-made with high-performance fabrics.",
+    "hombre_card1_title": "Training Set",
+    "hombre_card1_p": "Breathable fabric, flatlock seams, anatomical fit.",
+    "hombre_card2_title": "Premium Shorts",
+    "hombre_card2_p": "Made-to-measure with top-quality materials.",
+    "hombre_card3_title": "Technical Tee",
+    "hombre_card3_p": "Quick-dry and ergonomic fit.",
+    "hombre_img1_caption": "Men's training set with breathable fabric and flat seams.",
+    "hombre_img2_caption": "Premium shorts for training and urban use.",
+    "hombre_img3_caption": "Technical tee with quick-dry and ergonomic design.",
+
+    // mujer
+    "mujer_title": "Women's Collection",
+    "mujer_lead": "Leggings, tops and sets with style and functionality.",
+    "mujer_card1_title": "Sculpt Leggings",
+    "mujer_card1_p": "Strategic compression and maximum freedom of movement.",
+    "mujer_card2_title": "Support Top",
+    "mujer_card2_p": "Medium support with soft-to-touch fabrics.",
+    "mujer_card3_title": "Performance Set",
+    "mujer_card3_p": "Designed for training and urban style.",
+    "mujer_img1_caption": "Sculpt leggings with strategic compression.",
+    "mujer_img2_caption": "Supportive sports top with soft fabric.",
+    "mujer_img3_caption": "Performance set ideal for training.",
+
+    // sobre
+    "sobre_title": "About Us",
+    "sobre_lead": "Over 35 years manufacturing bespoke garments.",
+    "sobre_years": "35 years",
+    "feature_1": "Custom design & sampling",
+    "feature_2": "Quality control at every stage",
+    "feature_3": "Materials and pattern-making advice",
+    "btn_solicitar": "Request consultancy",
+
+    // gallery
+    "gallery_title": "Gallery / Lookbook",
+    "gallery_img1_caption": "Lookbook piece #1 — urban sports style.",
+
+    // faq
+    "faq_title": "Frequently asked questions",
+    "faq_q1": "How do I place a custom order?",
+    "faq_a1": "Contact us via WhatsApp or email, share your brief and timelines.",
+    "faq_q2": "Do you make samples before production?",
+    "faq_a2": "Yes, we develop samples before production to ensure fit.",
+    "faq_q3": "Can you advise me on fabrics and sizes?",
+    "faq_a3": "We guide you on materials, weights, trims and size scaling.",
+
+    // contacto
+    "contacto_title": "Book your order",
+    "contacto_lead": "Talk to our team and get a personalized quote.",
+    "contacto_whatsapp": "Chat on WhatsApp",
+    "contacto_email": "Send email",
+
+    // footer
+    "footer_brand": "Fabio Ariza",
+    "footer_copyright": "© 2026 — All rights reserved."
+  }
+};
+
+// Helper: translate visible text only
+function translatePage(lang) {
+  // standard text nodes
+  document.querySelectorAll('[data-key]').forEach(el => {
+    const key = el.getAttribute('data-key');
+    if (!key) return;
+    const txt = translations[lang] && translations[lang][key];
+    if (typeof txt !== 'undefined') {
+      // preserve inner HTML in some cases (e.g. <p> with <strong> inside)
+      if (el.tagName.toLowerCase() === 'p' || el.tagName.toLowerCase() === 'span' || el.tagName.toLowerCase() === 'a' || el.tagName.toLowerCase() === 'h1' || el.tagName.toLowerCase() === 'h2' || el.tagName.toLowerCase() === 'h3' || el.tagName.toLowerCase() === 'summary') {
+        el.textContent = txt;
+      } else {
+        el.textContent = txt;
+      }
+    }
+  });
+
+  // captions for images: elements with data-key-caption attribute on <img>
+  document.querySelectorAll('img[data-key-caption]').forEach(img => {
+    const key = img.getAttribute('data-key-caption');
+    if (!key) return;
+    const cap = translations[lang] && translations[lang][key];
+    if (typeof cap !== 'undefined') {
+      img.dataset.caption = cap; // updates lightbox caption source
+      // if lightbox open and this is currently displayed, update caption too
+      const lightbox = document.getElementById('lightbox-pro');
+      const lbImg = document.getElementById('lb-img');
+      const lbCaption = document.getElementById('lb-caption');
+      if (lightbox && lightbox.style.display === 'flex' && lbImg && lbCaption && lbImg.src === img.src) {
+        lbCaption.textContent = cap;
+      }
+    }
+  });
+
+  // update selected option visually
+  const select = document.getElementById('lang-select');
+  if (select) select.value = lang;
+
+  // save preference
+  try { localStorage.setItem('site_lang', lang); } catch(e){/* ignore */ }
+}
+
+// init language based on saved preference or default 'es'
+const savedLang = (function(){
+  try { return localStorage.getItem('site_lang') || 'es'; } catch(e){ return 'es'; }
+})();
+translatePage(savedLang);
+
+// change language when selector changes
+document.getElementById('lang-select').addEventListener('change', (e) => {
+  const newLang = e.target.value || 'es';
+  translatePage(newLang);
+});
+
+</script>
+</body>
+</html>
